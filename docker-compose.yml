@@ -1,0 +1,15 @@
+version: "2.0"
+
+services:
+  mail:
+    container_name: sys_mail
+    restart: unless-stopped
+    image: cpdrenato/mail-roundcube-mailtrap
+    ports:
+      - "8125:80"
+      - "2525:25"
+    environment:
+      - MT_USER=mailtrap
+      - MT_PASSWD=mailtrap
+      - MT_MAILBOX_LIMIT=512000001
+      - MT_MESSAGE_LIMIT=102400001
