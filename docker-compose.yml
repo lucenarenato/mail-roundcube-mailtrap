@@ -4,7 +4,8 @@ services:
   mail:
     container_name: sys_mail
     restart: unless-stopped
-    image: cpdrenato/mail-roundcube-mailtrap
+    image: eaudeweb/mailtrap
+    ##image: cpdrenato/mail-roundcube-mailtrap
     ports:
       - "8125:80"
       - "2525:25"

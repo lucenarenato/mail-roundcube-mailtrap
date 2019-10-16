@@ -1,5 +1,5 @@
 # Mailtrap Docker Image
-
+<p align="center"><img src="img/install-and-set-up-roundcube-webmail-interface.png"></p>
 ## Pegar todas as mensagens e exibi-las na interface roundcube.
 Catch all mail and display it in roundcube interface.
 
@@ -32,6 +32,8 @@ Catch all mail and display it in roundcube interface.
 ## See email via Mailtrap Web UI:
 
 * http://localhost
+
+<p align="center"><img src="img/roundcube-webmail-interface.png"></p>
 
 ## Default login:
 
